@@ -1,0 +1,19 @@
+[package]
+name = "spinning-square"
+version = "0.1.0"
+authors = [
+    "TyOverby <ty@pre-alpha.com>",
+    "Nikita Pekin <contact@nikitapek.in>",
+    "Sebastien Chagnon <chagnon.s21@gmail.com>"
+]
+edition = "2018"
+
+[[bin]]
+name = "spinning-square"
+
+[dependencies]
+rand = "0.8.1"
+piston = "0.52.1"
+piston2d-graphics = "0.39.0"
+pistoncore-glutin_window = "0.67.2"
+piston2d-opengl_graphics = "0.76.0"
